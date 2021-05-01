@@ -1,0 +1,116 @@
+[
+    {
+        "char_id": 1,
+        "name": "Ragnar",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_ragnar_16_9.jpg?w=548",
+        "played_by": "Played by Travis Fimmel"
+    },
+    {
+        "char_id": 2,
+        "name": "Lagertha",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_lagertha.jpg?w=548",
+        "played_by": "Played by Katheryn Winnick"
+    },
+    {
+        "char_id": 3,
+        "name": "Aethelwulf",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_aethelwulf.jpg?w=548",
+        "played_by": "Played by Moe Dunford"
+    },
+    {
+        "char_id": 4,
+        "name": "Astrid",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/11/vikings_4b_cast_astrid.jpg?w=548",
+        "played_by": "Played by Josefin Asplund"
+    },
+    {
+        "char_id": 5,
+        "name": "Bjorn",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_bjorn.jpg?w=548",
+        "played_by": "Played by Alexander Ludwig"
+    },
+    {
+        "char_id": 6,
+        "name": "Emperor Charles",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_charles.jpg?w=548",
+        "played_by": "Played by Lothaire Bluteau"
+    },
+    {
+        "char_id": 7,
+        "name": "Floki",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_floki.jpg?w=548",
+        "played_by": "Played by Gustaf Skarsgård"
+    },
+    {
+        "char_id": 8,
+        "name": "Halfdan the Black",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_halfdan.jpg?w=548",
+        "played_by": "Played by Jasper Pääkkönen"
+    },
+    {
+        "char_id": 9,
+        "name": "Hvitserk",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/11/vikings_4b_cast_hvitserk.jpg?w=548",
+        "played_by": "Played by Marco Ilsø"
+    },
+    {
+        "char_id": 10,
+        "name": "Ivar the Boneless",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/11/vikings_4b_cast_ivar.jpg?w=548",
+        "played_by": "Played by Alex Høgh Andersen"
+    },
+    {
+        "char_id": 11,
+        "name": "Judith",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_judith.jpg?w=548",
+        "played_by": "Played by Jennie Jacques"
+    },
+    {
+        "char_id": 12,
+        "name": "King Ecbert",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_s3_ecbert.jpg?w=548",
+        "played_by": "Played by Linus Roache"
+    },
+    {
+        "char_id": 13,
+        "name": "King Harald Finehair",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_harald.jpg?w=548",
+        "played_by": "Played by Peter Franzén"
+    },
+    {
+        "char_id": 14,
+        "name": "Princess Gisla",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_gisla_.jpg?w=548",
+        "played_by": "Played by Morgane Polanski"
+    },
+    {
+        "char_id": 15,
+        "name": "Queen Aslaug",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_aslaug_16_9.jpg?w=548",
+        "played_by": "Played by Alyssa Sutherland"
+    },
+    {
+        "char_id": 16,
+        "name": "Rollo",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_rollo.jpg?w=548",
+        "played_by": "Played by Clive Standen"
+    },
+    {
+        "char_id": 17,
+        "name": "Sigurd Snake in the Eye",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/11/vikings_4b_cast_sigurd.jpg?w=548",
+        "played_by": "Played by David Lindström"
+    },
+    {
+        "char_id": 18,
+        "name": "Ubbe",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/11/vikings_4b_cast_ubbe.jpg?w=548",
+        "played_by": "Played by Jordan Patrick Smith"
+    },
+    {
+        "char_id": 19,
+        "name": "The Seer",
+        "img" : "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2016/10/vikings_season4_cast_seer.jpg?w=548",
+        "played_by": "Played by John Kavanagh"
+    }
+]

@@ -7,51 +7,63 @@ import { useState } from 'react';
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("")
   return (
-    <DivContainer>
-      <Header />
-      <SearchSection>
-        <SearchForm>
-          <SearchInput
-            type="text"
-            placeholder="Search"
-            onChange={event => {
-              setSearchTerm(event.target.value)
-            }}
-          />
-        </SearchForm>
-      </SearchSection>
-      {
-        CloudData.filter(CloudDetail => {
-          if (searchTerm == "") {
-            return CloudDetail
-          } else if (
-            CloudDetail.name.toLocaleLowerCase().includes(
-              searchTerm.toLocaleLowerCase()
-            )
-          ) {
-            return CloudDetail
-          }
-        }).map((CloudDetail, index) => {
-          return (
-            <div index={index}>
-              <h1>{CloudDetail.name}</h1>
-              <img src={`${CloudDetail.img}`} />
-            </div>
+    <section id="projects" class="projects container">
+      <div class="projects-details">
+        <div class="projects-cards">
+          <Header />
+          <SearchSection>
+            <SearchForm>
+              <SearchInput
+                type="text"
+                placeholder="Search"
+                onChange={event => {
+                  setSearchTerm(event.target.value)
+                }}
+              />
+            </SearchForm>
+          </SearchSection>
+          <ul class="cards">
+            {
+              CloudData.filter(CloudDetail => {
+                if (searchTerm == "") {
+                  return CloudDetail
+                } else if (
+                  CloudDetail.name.toLocaleLowerCase().includes(
+                    searchTerm.toLocaleLowerCase()
+                  )
+                ) {
+                  return CloudDetail
+                }
+              }).map((CloudDetail, index) => {
+                return (
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image">
+                        <img src={`${CloudDetail.img}`} /></div>
+                      <div class="card_content">
+                        <h2 class="card_title">{CloudDetail.name}</h2>
+                        <p class="card_text">{CloudDetail.details}</p>
+                      </div>
+                    </div>
+                  </li>
 
-          )
-        })
-      }
-    </DivContainer>
+                )
+              })
+            }
+          </ul>
+        </div>
+      </div>
+    </section>
 
   )
 
 }
 
-const DivContainer = styled.div`
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 20px;
-`;
+// const DivContainer = styled.div`
+//   max-width: 1100px;
+//   margin: auto;
+//   padding: 0 20px;
+// `;
 
 const SearchSection = styled.section`
     height: 100px;
